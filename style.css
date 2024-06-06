@@ -1,0 +1,46 @@
+body{
+    background: url(./Hamburger_Tomatoes_French_fries_Knife_Black_576869_1280x853.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sessoes{
+  padding-left: 10px;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+  
+  .Parallax {
+    height: 92vh;
+    width: 100vw;
+    transform: translateZ(-1px) scale(2);
+    z-index: 1;
+  }
+  
+  .Content {
+    display: block;
+    position: sticky;
+    z-index: 2;
+    
+  }
+
+@media (max-width: 540px){
+    #produtos{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .Parallax {
+      
+      display: inline;
+    }
+  }

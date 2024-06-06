@@ -31,7 +31,12 @@ body{
     
   }
 
-@media (max-width: 540px){
+  .redesSociais{
+    display: flex;
+    align-items: end;
+  }
+
+@media (max-width: 576px){
     #produtos{
       margin: 0 auto;
       display: flex;
@@ -42,5 +47,14 @@ body{
     .Parallax {
       
       display: inline;
+    }
+
+    .itensNav{
+      display: none;
+    }
+
+    .redesSociais{
+      display: block;
+      text-align: center;
     }
   }

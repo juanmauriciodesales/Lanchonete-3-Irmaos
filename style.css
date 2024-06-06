@@ -33,7 +33,7 @@ body{
 
   .redesSociais{
     display: flex;
-    justify-content: center;
+    align-items: baseline;
   }
 
 @media (max-width: 576px){
